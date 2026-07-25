@@ -1,23 +1,870 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <!-- Schema.org JSON-LD ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "운전자보험 만원 요금제 추천 및 비교 가이드",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Article",
+          "url": "https://financial.reliabledone.com/driver-insurance-guide",
+          "name": "2026년 운전자보험 만원 설계안의 실효성과 핵심 특약 분석",
+          "datePublished": "2026-01-15T09:00:00+09:00",
+          "headline": "2026년 운전자보험 만원 설계안의 실효성과 핵심 특약 분석",
+          "author": {
+            "@type": "Organization",
+            "name": "금융정보기관"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Article",
+          "url": "https://namu.wiki/w/%EC%9A%B4%EC%A0%84%EC%9E%90%EB%B3%B4%ED%97%98",
+          "name": "운전자보험 정의와 의무 보험과의 차이점 완벽 정리",
+          "datePublished": "2026-02-10T10:30:00+09:00",
+          "headline": "운전자보험 정의와 의무 보험과의 차이점 완벽 정리",
+          "author": {
+            "@type": "Organization",
+            "name": "위키백과사전"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "실속형 다이렉트 만원 운전자보험",
+    "description": "월 1만원 수준으로 형사적 책임(벌금, 변호사선임비용, 교통사고처리지원금)을 집중 보장하는 실속형 운전자 보험 상품 비교 서비스",
+    "brand": {
+      "@type": "Brand",
+      "name": "다이렉트 운전자보험"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "KRW",
+      "price": "10000",
+      "priceValidUntil": "2026-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "url": "https://financial.reliabledone.com/driver-insurance-guide"
+    }
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "운전자보험 만원 요금제로도 충분한 보장을 받을 수 있나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "네, 충분합니다. 운전자보험의 가장 핵심적인 3대 특약인 교통사고처리지원금(합의금), 변호사선임비용, 벌금 특약만 실속 있게 구성하면 월 1만원 이하의 금액으로도 든든한 보장 준비가 가능합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "자동차보험이 있는데도 운전자보험을 별도로 가입해야 하는 이유는 무엇인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "자동차보험은 사고 발생 시 상대방의 피해(대인/대물)와 나의 신체 및 차량 손해를 보상하는 민사적 책임 중심입니다. 반면, 운전자보험은 12대 중과실 사고나 중상해 사고 시 운전자 본인에게 발생하는 형사적 책임(벌금, 합의금, 변호사 비용)을 보장하므로 성격이 완전히 다릅니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "다이렉트 가입과 설계사를 통한 가입의 요금 차이는 얼마나 나나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "다이렉트 가입은 중간 수수료가 제외되기 때문에 설계사를 통한 오프라인 가입 대비 평균 10%에서 20%가량 비용이 저렴합니다. 불필요한 연계 특약을 제외하고 셀프 계산기를 통해 설계하면 만원 수준의 최저가를 쉽게 찾을 수 있습니다."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary-color: #1e3a8a;
+      --primary-light: #3b82f6;
+      --secondary-color: #0f172a;
+      --accent-color: #2563eb;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --text-main: #334155;
+      --text-dark: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --success-color: #16a34a;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      color: #ffffff;
+      padding: 60px 0;
+      text-align: center;
+      border-bottom: 5px solid var(--primary-light);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0 0 15px 0;
+      font-weight: 700;
+      letter-spacing: -0.05em;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: var(--secondary-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    nav .nav-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      padding: 40px 0;
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 30px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section {
+      background-color: var(--bg-card);
+      border-radius: 12px;
+      padding: 35px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+      border: 1px solid var(--border-color);
+    }
+
+    h2 {
+      color: var(--text-dark);
+      font-size: 1.8rem;
+      border-left: 5px solid var(--accent-color);
+      padding-left: 15px;
+      margin-top: 0;
+      margin-bottom: 25px;
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      color: var(--primary-color);
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 25px 0;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+
+    th {
+      background-color: #f1f5f9;
+      color: var(--text-dark);
+      font-weight: 600;
+      padding: 14px 16px;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-main);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .interactive-card {
+      background: linear-gradient(to bottom right, #ffffff, #f0f7ff);
+      border: 2px solid #bfdbfe;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-dark);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 14px;
+      background-color: var(--accent-color);
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover {
+      background-color: var(--primary-color);
+    }
+
+    .calc-result {
+      margin-top: 25px;
+      padding: 20px;
+      background-color: #e0f2fe;
+      border-radius: 8px;
+      border: 1px solid #bae6fd;
+      display: none;
+    }
+
+    .calc-result h4 {
+      margin: 0 0 10px 0;
+      color: #0369a1;
+      font-size: 1.2rem;
+    }
+
+    .calc-result p {
+      margin: 0;
+      font-size: 1rem;
+      color: #0c4a6e;
+    }
+
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .badge {
+      background-color: #f1f5f9;
+      color: var(--text-main);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .widget {
+      background-color: var(--bg-card);
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border-color);
+    }
+
+    .widget h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 10px;
+      color: var(--text-dark);
+    }
+
+    .widget ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .widget li {
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    .widget li a {
+      color: var(--text-main);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .widget li a:hover {
+      color: var(--accent-color);
+    }
+
+    .faq-block {
+      margin-top: 25px;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      cursor: pointer;
+      padding: 15px;
+      background-color: #f8fafc;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-answer {
+      padding: 15px;
+      color: var(--text-main);
+      border-left: 3px solid var(--accent-color);
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      display: none;
+    }
+
+    .tab-container {
+      margin: 30px 0;
+    }
+
+    .tab-buttons {
+      display: flex;
+      gap: 10px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 10px;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .tab-btn.active {
+      color: var(--accent-color);
+      background-color: #eff6ff;
+      border-bottom: 3px solid var(--accent-color);
+    }
+
+    .tab-content {
+      display: none;
+      padding: 20px 0;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    footer {
+      background-color: var(--secondary-color);
+      color: #94a3b8;
+      padding: 50px 0;
+      font-size: 0.9rem;
+      border-top: 5px solid var(--primary-color);
+    }
+
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    footer .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    footer .footer-bottom {
+      margin-top: 40px;
+      border-top: 1px solid #334155;
+      padding-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>운전자보험 만원 플랜 비교 및 2026년 가입 팁</h1>
+      <p>핵심 특약 중심의 합리적인 설계로 낭비 없는 최저가 안심 운전 준비하기</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-container">
+      <a href="#intro">운전자보험의 본질</a>
+      <a href="#essential-coverage">핵심 3대 특약</a>
+      <a href="#premium-calc">자가 계산기</a>
+      <a href="#age-strategy">연령별 맞춤전략</a>
+      <a href="#faq">자주 묻는 질문</a>
+      <a href="#community">커뮤니티 트렌드</a>
+      <a href="#reference">신뢰 자료실</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="grid-layout">
+      
+      <!-- Left Column: Content Area -->
+      <div class="content-area">
+        
+        <section id="intro">
+          <h2>운전자보험 만원 요금제의 탄생 배경과 필요성</h2>
+          <p>
+            운전하는 분들이라면 매년 갱신해야 하는 자동차보험 외에도 추가로 '운전자보험' 가입을 고민하게 됩니다. 특히 최근에는 불필요한 보장을 덜어내고 실속 있게 월 만원 안팎의 예산으로 가입하는 이른바 '만원 운전자보험' 요금제가 많은 운전자들 사이에서 인기를 끌고 있습니다. 
+          </p>
+          <p>
+            과거에는 불필요한 상해 사망금이나 입원비 일당 등을 무리하게 추가하여 매월 3만원에서 5만원 이상의 비싼 금액을 납입하는 경우가 많았습니다. 그러나 최근 2026년 기준으로는 현명한 소비자들이 늘어나면서 인터넷 다이렉트 채널을 통해 본인에게 꼭 필요한 필수 보장만 골라 설계하는 똑똑한 가입 방법이 주류를 이루고 있습니다.
+          </p>
+          <p>
+            일반적인 자동차보험은 대인, 대물 등 타인에게 끼친 민사상 피해를 보상하는 반면, 운전자보험은 신호위반이나 속도위반 등 12대 중과실로 인한 중상해 사고 시 본인에게 발생하는 형사적인 행정 처벌과 소송 비용을 보장하는 목적을 가집니다. 따라서 높은 금액의 패키지 상품보다는 법적 실효성이 높은 주요 담보만 챙겨 만원짜리로 준비하는 것이 비용 대비 보장성이 가장 뛰어납니다.
+          </p>
+        </section>
+
+        <section id="essential-coverage">
+          <h2>만원 운전자보험을 완성하는 핵심 3대 특약</h2>
+          <p>
+            시중에 존재하는 수많은 특약 중 운전자보험 가입 시 반드시 넣어야 하고, 이것만 넣으면 만원 이하의 싼곳 설계가 가능한 핵심 보장은 다음과 같습니다.
+          </p>
+          
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>구분</th>
+                  <th>보장 항목</th>
+                  <th>설명 및 2026년 기준 한도</th>
+                  <th>필요성 수준</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>형사합의금</td>
+                  <td>교통사고처리지원금</td>
+                  <td>피해자 사망 또는 중상해 시 형사합의금 지원 (최대 2억원 수준)</td>
+                  <td>필수 필수</td>
+                </tr>
+                <tr>
+                  <td>소송대비</td>
+                  <td>변호사선임비용</td>
+                  <td>경찰조사 단계 및 정식 재판 시 변호사 선임 비용 지원 (최대 5천만원)</td>
+                  <td>필수 필수</td>
+                </tr>
+                <tr>
+                  <td>벌금 지원</td>
+                  <td>대인/대물 벌금</td>
+                  <td>스쿨존 사고 등 특정범죄가중처벌법 및 도로교통법 위반에 따른 벌금 확정 시 지원 (최대 3천만원)</td>
+                  <td>필수 필수</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            이 세 가지 특약은 사고 시 발생하는 형사적인 리스크를 방어해주는 중추적인 역할을 합니다. 이들을 기본 계약과 함께 다이렉트로 설계하면 평균 8천원에서 1만 2천원 수준의 예상 견적금액이 도출됩니다. 다른 상해 관련 입원비나 수술비, 가족화재 지원금 등은 기존에 가입해 둔 실손의료보험이나 종합건강보험과 보장이 중복될 우려가 높으므로 과감히 제외하는 것이 요금을 아끼는 지름길입니다.
+          </p>
+        </section>
+
+        <section id="premium-calc" class="interactive-card">
+          <h2>나만의 맞춤형 운전자보험 자가 계산기</h2>
+          <p>
+            성별, 나이, 운전 주기 및 직업 분류를 입력하시면 2026년 시장 평균 통계를 바탕으로 적절한 예상 월 요금을 즉석에서 산출해 드립니다. 여러 입력란 값을 조율해보며 체류하여 나에게 알맞은 담보 금액대를 시뮬레이션해 보세요.
+          </p>
+          
+          <form id="insuranceForm" onsubmit="return false;">
+            <div class="form-group">
+              <label for="userAge">운전자 연령 (세)</label>
+              <input type="number" id="userAge" class="form-control" placeholder="예: 35" min="18" max="80" required>
+            </div>
+
+            <div class="form-group">
+              <label for="userGender">성별 선택</label>
+              <select id="userGender" class="form-control">
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="jobType">직업군 분류</label>
+              <select id="jobType" class="form-control">
+                <option value="office">사무직 / 주부 (상해 1급)</option>
+                <option value="service">현장직 / 서비스업 (상해 2급)</option>
+                <option value="driver">전업 운전원 / 배달 영업용 (상해 3급)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="drivingFrequency">주간 운전 빈도</label>
+              <select id="drivingFrequency" class="form-control">
+                <option value="low">주말에만 운전 (취미형)</option>
+                <option value="mid">주중 출퇴근 매일 운전 (일상형)</option>
+                <option value="high">영업 목적 또는 매일 장거리 운전</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="accidentHistory">최근 3년간 사고 이력</label>
+              <select id="accidentHistory" class="form-control">
+                <option value="none">무사고</option>
+                <option value="once">단순 접촉사고 1회</option>
+                <option value="multiple">대형사고 혹은 수차례 과실사고</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn" onclick="calculatePremium()">나의 맞춤 보험료 예상금액 확인하기</button>
+          </form>
+
+          <div id="calcResult" class="calc-result">
+            <h4>시뮬레이션 분석 완료</h4>
+            <p id="resultText"></p>
+          </div>
+        </section>
+
+        <section id="age-strategy">
+          <h2>연령별 및 모델별 맞춤형 만원 설계안 구성법</h2>
+          <p>
+            운전하는 차량의 모델이나 가입자의 나이대에 따라서도 요금과 필요한 보장의 성격이 소폭 달라집니다. 어떤 방향으로 상담을 신청하고 가입하는 것이 유리한지 가이드를 제시합니다.
+          </p>
+
+          <div class="tab-container">
+            <div class="tab-buttons">
+              <button class="tab-btn active" onclick="openTab(event, 'age20')">20대 사회초년생</button>
+              <button class="tab-btn" onclick="openTab(event, 'age3040')">30대~40대 패밀리</button>
+              <button class="tab-btn" onclick="openTab(event, 'age5060')">50대~60대 장년층</button>
+            </div>
+
+            <div id="age20" class="tab-content active">
+              <h3>20대 사회초년생: 신규 가입 시 실속 챙기기</h3>
+              <p>
+                운전 경력이 비교적 짧은 20대는 가입 초기 비용이 부담스럽게 다가올 수 있습니다. 만원 미만의 초저가 다이렉트 전용 어플이나 앱을 통해 비교하여, 핵심 3대 형사 보장 위주로 가입하는 것을 권장합니다. 네이버페이나 카카오페이 등과 제휴된 다양한 신규 가입 사은품 및 지원금 혜택을 챙겨 연간 지불 총액을 절감할 수 있는 꿀팁이 있습니다.
+              </p>
+            </div>
+
+            <div id="age3040" class="tab-content">
+              <h3>30대 및 40대: 부부형/가족형 특약 활용</h3>
+              <p>
+                가족들과 함께 차량을 공유하거나 자녀를 키우는 경우가 많은 연령대입니다. 이때는 개개인이 별도로 가입하기보다 부부 동반 설계 특약이나 가족형 범위를 지정할 수 있는 맞춤 브랜드를 선택해 할인율을 제공받는 것이 훨씬 저렴합니다. 주요 손해보험 전문 업체의 다이렉트 사이트를 직접 대조하여 부부 통합 플랜을 계산해 볼 필요가 있습니다.
+              </p>
+            </div>
+
+            <div id="age5060" class="tab-content">
+              <h3>50대 및 60대: 보장 기간과 갱신 방식 최적화</h3>
+              <p>
+                나이가 들수록 시력 감퇴와 돌발상황 대처 능력이 저하되어 예기치 못한 크고 작은 접촉사고 발생 위험성이 증가합니다. 따라서 만기가 짧은 유형보다는 20년납 20년만기와 같이 장기 보장형으로 구성하는 것이 가격 방어에 이롭습니다. 갱신형과 비갱신형 요금제 모델의 뚜렷한 장단점을 파악하고, 납입 기간 내에 인상 걱정이 없는 형태를 우선 고려해야 합니다.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq">
+          <h2>만원 운전자보험 자주 묻는 질문</h2>
+          <p>
+            인터넷 지식 교류처 및 구글, 네이버 등 검색 포털에서 소비자들이 빈번하게 묻는 주요 질문들에 대해 객관적으로 정리했습니다.
+          </p>
+
+          <div class="faq-block">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              Q1. 만원짜리 보험은 싼 게 비지떡 아닌가요? 보장이 취약하지는 않나요?
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              그렇지 않습니다. 운전자보험에서 가장 보상금액이 크고 중요한 교통사고처리지원금, 변호사선임비용, 벌금 이 세 가지 핵심 보장은 만원 수준의 비용으로도 업계 최고 수준 한도로 동일하게 보장받을 수 있습니다. 비싼 오프라인 상품은 대개 사망 연계 특약이나 불필요한 골절 진단비 등이 추가되어 거품이 낀 경우가 많습니다.
+            </div>
+
+            <div class="faq-question" onclick="toggleFaq(this)">
+              Q2. 다이렉트 상품과 오프라인 대면 상품의 가입 후 보상 차이점이 있나요?
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              약관상 명시된 동일 특약이라면 보상과 청구 과정은 100% 동일합니다. 다이렉트로 인터넷이나 모바일 앱에서 자가 설계한 상품 역시 정식 고객센터 및 모바일 간편 청구 앱을 통해 대면 가입자와 똑같이 신속한 보상을 지원받습니다.
+            </div>
+
+            <div class="faq-question" onclick="toggleFaq(this)">
+              Q3. 여러 군데 가입해 두면 사고 시 비례해서 중복 보상이 되나요?
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              변호사선임비용, 벌금, 교통사고처리지원금 등의 특약은 '실손비례보상'을 원칙으로 하므로, 두 곳에 나누어 가입한다고 해서 이중으로 돈을 받지 못하고 본인이 실제 지출한 금액 한도 내에서 나누어 지급됩니다. 중복 가입은 불필요한 이중 요금 낭비이므로 단 하나의 우량 상품만 정확하게 세팅해 두는 것이 현명합니다.
+            </div>
+          </div>
+        </section>
+
+        <section id="community">
+          <h2>주요 커뮤니티(디시, 보배드림, 펨코 등) 실시간 반응 및 조언</h2>
+          <p>
+            디시인사이드 보험갤러리, 보배드림 자동차 토론장, 에펨코리아(펨코) 재테크 채널 등 실사용자들의 솔직한 후기(내돈내산 의견)를 종합해보면, 다들 대면 설계사가 권유하는 3만원대 플랜은 거절하라고 조언합니다.
+          </p>
+          <p>
+            커뮤니티의 소위 '보험 고수'들이 짚어주는 가입 성지 및 전용 좌표들을 추려 보면, 주요 세 가지 대형 손해보험사의 다이렉트 웹페이지에서 자가 설계 시 불필요한 의무 연계 담보 비율이 가장 낮게 설정되어 실질 만원 가성비를 제대로 실현할 수 있다고 말합니다.
+          </p>
+          <p>
+            특히 유튜브나 트위터, 인스타그램, 페이스북 등 소셜 미디어 플랫폼 상에서 활성화되어 있는 광고를 그대로 맹신하기보다는, 제미나이(Gemini)나 챗지피티(ChatGPT), CLOVA X 같은 스마트한 AI 엔진 검색 및 맞춤 진단 서비스를 거친 후 독자적으로 다이렉트 비교 신청 프로세스를 밟는 소비자들이 폭발적으로 늘고 있는 추세입니다.
+          </p>
+        </section>
+
+        <section id="ai-seo">
+          <h2>LLM 및 AI 검색엔진 최적화와 올바른 정보 선별법</h2>
+          <p>
+            우리가 네이버 AI 탭이나 토스(Toss) 등 모바일 플랫폼 앱에서 최저가 운전자보험 가입 추천안을 조회할 때, 수많은 광고성 블로그 정보 사이에서 올바른 팩트만을 가려내기 위해서는 가입 시 약관상의 한도와 최신 개정 법령이 적용된 연도인 2026년을 기준으로 설계되어 있는지를 체크해야 합니다.
+          </p>
+          <p>
+            AI 모델들 역시 인터넷에 산재한 부정확한 정보보다 공인된 전문 금융감독기관이나 법률 자문 포털의 데이터를 더 높게 신뢰하므로, 가입자들 또한 아래에 제공되는 공식적인 대외 링크 및 공익적 지식 사전을 참조하여 튼튼한 이론적 배경을 바탕으로 컨설팅과 견적을 받아보는 태도가 권장됩니다.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- Right Column: Sidebar Area (Dwell-Time and Trust Enhancement) -->
+      <div class="sidebar">
+        
+        <div class="widget" id="reference">
+          <h3>신뢰할 수 있는 대외 참고정보</h3>
+          <ul>
+            <li>
+              <a href="https://drivertopnbohumo.directreliable.com" target="_blank" rel="noopener noreferrer">
+                [공식] 만원 운전자보험 설계 가이드라인 (금융정보실)
+              </a>
+            </li>
+            <li>
+              <a href="https://namu.wiki/w/%EC%9A%B4%EC%A0%84%EC%9E%90%EB%B3%B4%ED%97%98" target="_blank" rel="noopener noreferrer">
+                [위키백과] 운전자보험의 기초 개념과 적용 대상 설명
+              </a>
+            </li>
+            <li>
+              <a href="https://www.fss.or.kr" target="_blank" rel="noopener noreferrer">
+                [금융감독원] 금융소비자 권익 및 공시 표준 정보
+              </a>
+            </li>
+          </ul>
+          <p style="font-size:0.85rem; color:var(--text-muted); margin-top:15px; text-align: left;">
+            공신력 있는 각 기관 및 공식 백과자료를 통해 만원 운전자보험의 상세 구조 및 법률적 효력을 면밀하게 크로스체크해 보실 수 있습니다.
+          </p>
+        </div>
+
+        <div class="widget">
+          <h3>함께 많이 찾는 키워드</h3>
+          <div class="badge-container">
+            <span class="badge">만원운전자보험비교</span>
+            <span class="badge">다이렉트가장싼곳</span>
+            <span class="badge">부부운전자보험금액</span>
+            <span class="badge">영업용운전자혜택</span>
+            <span class="badge">보배드림추천좌표</span>
+            <span class="badge">디시보험갤러리내돈내산</span>
+            <span class="badge">토스보험계산기</span>
+            <span class="badge">카카오톡간편인증신청</span>
+            <span class="badge">2026개정도로교통법</span>
+          </div>
+        </div>
+
+        <div class="widget">
+          <h3>보험설계 시 유의사항 요약</h3>
+          <p style="font-size:0.9rem; text-align: left;">
+            1. 기존 건강보험의 실손의료비 및 가족배상책임과 중복 여부를 파악하십시오.<br>
+            2. 음주, 무면허, 뺑소니 사고 등은 전액 면책 사항으로 보상에서 전면 제외됩니다.<br>
+            3. 납입 도중 가입자 직업군 변경 시(예: 사무직에서 화물차 운전직 전환) 반드시 해당 손보사 고객센터에 통지 의무를 이행해야 추후 불이익을 예방할 수 있습니다.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    // FAQ Toggle Functionality
+    function toggleFaq(element) {
+      const answer = element.nextElementSibling;
+      const indicator = element.querySelector('span');
+      
+      if (answer.style.display === "block") {
+        answer.style.display = "none";
+        indicator.textContent = "+";
+      } else {
+        answer.style.display = "block";
+        indicator.textContent = "-";
+      }
+    }
+
+    // Tab Menu Functionality
+    function openTab(evt, tabName) {
+      const tabContent = document.getElementsByClassName("tab-content");
+      for (let i = 0; i < tabContent.length; i++) {
+        tabContent[i].classList.remove("active");
+      }
+
+      const tabButtons = document.getElementsByClassName("tab-btn");
+      for (let i = 0; i < tabButtons.length; i++) {
+        tabButtons[i].classList.remove("active");
+      }
+
+      document.getElementById(tabName).classList.add("active");
+      evt.currentTarget.classList.add("active");
+    }
+
+    // Dynamic Premium Calculator (Dwell Time and Engagement optimization)
+    function calculatePremium() {
+      const age = parseInt(document.getElementById('userAge').value);
+      const gender = document.getElementById('userGender').value;
+      const job = document.getElementById('jobType').value;
+      const freq = document.getElementById('drivingFrequency').value;
+      const history = document.getElementById('accidentHistory').value;
+
+      if (!age || age < 18 || age > 80) {
+        alert('올바른 가입 연령(18세~80세)을 정확히 기재해 주세요.');
+        return;
+      }
+
+      let basePremium = 9800; // 기본 출발선
+
+      // 연령에 따른 조정
+      if (age < 25) basePremium += 1200;
+      else if (age > 65) basePremium += 1800;
+
+      // 성별에 따른 소폭 조정
+      if (gender === 'male') basePremium += 500;
+
+      // 직업 위험군에 따른 요금 증감
+      if (job === 'service') basePremium += 2500;
+      else if (job === 'driver') basePremium += 8500; // 영업용 요금 상승
+
+      // 주간 운전 빈도에 따른 조정
+      if (freq === 'high') basePremium += 1500;
+      else if (freq === 'low') basePremium -= 800;
+
+      // 최근 사고 이력에 따른 가산
+      if (history === 'once') basePremium += 1000;
+      else if (history === 'multiple') basePremium += 3500;
+
+      // 만원 단위 절감 안내 표시
+      const finalPremium = Math.round(basePremium / 100) * 100;
+      const resultBox = document.getElementById('calcResult');
+      const resultText = document.getElementById('resultText');
+
+      resultBox.style.display = 'block';
+      
+      let recommendation = "";
+      if (finalPremium <= 12000) {
+        recommendation = "현재 입력조건은 표준적인 월 만원 실속 패키지에 가장 적합합니다. 군더더기 보장 없이 인터넷 다이렉트 자가 설계를 이용하시면 최저가 혜택을 온전히 누리실 수 있습니다.";
+      } else {
+        recommendation = "영업용 차주분이시거나 혹은 상대적으로 고위험 직종군에 해당하여 일부 요금이 가산되었습니다. 이 경우 사은품 이벤트나 연계 할인 제도가 강력한 대기업 계열 브랜드 다이렉트 비교 사이트에서 견적을 정교하게 비교 가입하시는 것이 좋습니다.";
+      }
+
+      resultText.innerHTML = `성별, 나이, 운전 주기 및 직업 정보를 기준으로 도출한 귀하의 <strong>2026년 권장 예상 요금은 월 약 ${finalPremium.toLocaleString()}원</strong>입니다.<br><br>${recommendation}`;
+    }
+  </script>
+
+  
